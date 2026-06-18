@@ -791,7 +791,7 @@ function Search() {
         <span className={`chip${verOnly?" active":""}`} onClick={()=>setVerOnly(!verOnly)}>✓ Verified only</span>
       </div>
       {results.length===0
-        ? <div className="empty animate-scale-in"><span className="empty-icon">🔍</span><div className="empty-title">No providers found</div><div className="empty-sub">Try different filters or search keywords</div></div>
+        ? <div className="empty animate-scale-in"><span className="empty-icon">🔍</span><div className="empty-title">No providers found</div><div className="empty-sub">Try different filters or search keywords.</div></div>
         : <div className="service-grid animate-fade-up delay-2">{results.map(p=><ServiceCard key={p.id} p={p}/>)}</div>
       }
     </div>
