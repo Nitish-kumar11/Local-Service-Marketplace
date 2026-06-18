@@ -815,7 +815,7 @@ function ProviderDetail() {
             <div style={{display:"flex",gap:10,alignItems:"center",flexWrap:"wrap",marginBottom:12}}>
               <h1 style={{fontFamily:"'Baloo 2',sans-serif",fontSize:26,fontWeight:800,letterSpacing:"-.03em"}}>{p.name}</h1>
               {p.verified && <span className="badge badge-green">✓ Verified</span>}
-              {!p.available && <span className="badge badge-red">Unavailable.</span>}
+              {!p.available && <span className="badge badge-red">Unavailable</span>}
             </div>
             <div style={{display:"flex",gap:14,flexWrap:"wrap",marginBottom:14,opacity:.85}}>
               <span style={{fontSize:14,fontWeight:700}}>📍 {p.city}</span>
