@@ -916,6 +916,9 @@ function Login() {
           <div style={{fontFamily:"'Baloo 2',sans-serif",fontSize:28,fontWeight:800,marginBottom:6}}>Welcome back 🙏</div>
           <div className="auth-sub">Sign in to manage your bookings</div>
           <div className="auth-demo">
+
+            {/* HERE ARE THE DEMO AACOUNTS FOR USE */}
+            
             <strong>Demo Accounts:</strong><br/>
             👤 admin@local.com / admin123 (Admin)<br/>
             👤 priya@example.com / priya123 (User)<br/>
