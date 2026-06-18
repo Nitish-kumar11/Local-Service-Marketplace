@@ -918,7 +918,7 @@ function Login() {
           <div className="auth-demo">
 
             {/* HERE ARE THE DEMO AACOUNTS FOR USE */}
-            
+
             <strong>Demo Accounts:</strong><br/>
             👤 admin@local.com / admin123 (Admin)<br/>
             👤 priya@example.com / priya123 (User)<br/>
@@ -970,7 +970,7 @@ function Register() {
             <div className="form-group"><label className="form-label">Full Name *</label><input className="form-input" value={form.name} onChange={f("name")} placeholder="Ramesh Kumar"/></div>
             <div className="form-group"><label className="form-label">Mobile No.</label><input className="form-input" value={form.phone} onChange={f("phone")} placeholder="98765 43210"/></div>
           </div>
-          <div className="form-group"><label className="form-label">Email *</label><input className="form-input" type="email" value={form.email} onChange={f("email")} placeholder="you@example.com"/></div>
+          <div className="form-group"><label className="form-label">E-mail *</label><input className="form-input" type="email" value={form.email} onChange={f("email")} placeholder="you@example.com"/></div>
           <div className="form-group"><label className="form-label">Password *</label><input className="form-input" type="password" value={form.password} onChange={f("password")} placeholder="Min 6 characters"/></div>
           <div className="form-row">
             <div className="form-group"><label className="form-label">City</label><input className="form-input" value={form.city} onChange={f("city")} placeholder="Mumbai, Delhi…"/></div>
