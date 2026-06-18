@@ -832,7 +832,7 @@ function ProviderDetail() {
         {p.available
           ? <RippleBtn className="btn-primary btn-lg" onClick={()=>user?setShowBook(true):setPage("login")}>Book Now — {p.price}</RippleBtn>
           : <button className="btn btn-secondary btn-lg" disabled>Currently Unavailable</button>}
-        {!user && <span className="text-m" style={{marginLeft:16}}>Sign in to book</span>}
+        {!user && <span className="text-m" style={{marginLeft:16}}>Sign in for booking </span>}
       </div>
       {showBook && <BookingModal provider={p} onClose={()=>setShowBook(false)}/>}
     </div>
