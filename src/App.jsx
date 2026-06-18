@@ -905,7 +905,7 @@ function Login() {
         <div className="auth-left-content animate-slide-l">
           <div className="auth-left-logo"><div className="auth-left-logo-icon">🇮🇳</div><div className="auth-left-logo-name">LocalSeva.in</div></div>
           <h2>Your city's best<br/>service pros,<br/>one tap away.</h2>
-          <p style={{marginTop:16}}>Join 1 lakh+ families booking trusted home services every day across India.</p>
+          <p style={{marginTop:16}}>Join 1 lakh+ families booking trusted home services every day across all over India.</p>
           <div style={{display:"flex",gap:16,justifyContent:"center",marginTop:36,flexWrap:"wrap"}}>
             {["🔧 Plumbing","⚡ Electrical","🧹 Cleaning","❄️ AC Repair"].map(s=><div key={s} style={{background:"rgba(255,255,255,.15)",border:"1px solid rgba(255,255,255,.25)",borderRadius:"99px",padding:"8px 16px",fontSize:13,fontWeight:700,backdropFilter:"blur(8px)"}}>{s}</div>)}
           </div>
